@@ -56,13 +56,18 @@ flex: 1;
   align-items: flex-end;
 
   .badge-cmp, .tag-cmp {
-    padding: 1rem 2rem;
+    padding: 1rem 3rem;
+    margin-right: 3rem;
     border: var(--white-color);
   border-radius: 15px;
     flex-direction: row;
     width: auto;
 
     box-shadow: 0 0 20px rgba(148, 187, 233, 100);
+  }
+
+  .head-text, .p-text{
+    color: #0056b3;
   }
 
   .tag-cmp{
@@ -97,7 +102,7 @@ flex:0.75;
   justify-content: space-evenly;
   align-items: flex-start;
   height: 100%;
-  margin-left: 1rem;
+  margin-left: 3rem;
 
   div{
     width: 100px;
@@ -133,8 +138,8 @@ flex:0.75;
 
   div:nth-child(4) {
     margin: 1.5rem;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
   }
 
   div:nth-child(5) {
@@ -142,8 +147,8 @@ flex:0.75;
     height: 70px;
   }
   div:nth-child(6) {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
   }
 
   @media screen and (min-width: 2000px){
@@ -202,7 +207,7 @@ flex:0.75;
     width: 100%;
     object-fit: contain;
     z-index: 1;
-    border-radius: 50%;
+    border-radius: 15%;
   }
 
   .overlay_circle{

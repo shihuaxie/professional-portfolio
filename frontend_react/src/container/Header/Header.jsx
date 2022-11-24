@@ -63,6 +63,7 @@ const Header = () => {
                 {[images.html, images.react, images.sass, images.javascript, images.css, images.redux].map((circle, index) => (
                     <div className="circle-cmp app__flex" key={`circle-${index}`}>
                         <img src={circle} alt="profile_bg"/>
+
                     </div>
                 ))}
             </motion.div>
